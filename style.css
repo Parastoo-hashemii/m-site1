@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #b3c2c3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h {
+  background-color: rgb(108, 135, 143);
+  border-radius: 1rem;
+  border-color: rgb(38, 117, 91);
+  margin: 2rem;
+}
+.login-cart {
+  display: flex;
+  gap: 5rem;
+}
+.navbar__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo__container {
+  width: 100px;
+  height: 100px;
+}
+.logo__container img {
+  width: 100%;
+  height: 100%;
+}
+
+#label1 {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background-color: #4f9195;
+}
+.lable2 {
+  background-color: #4f9195;
+}
+.login-cart {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+nav {
+  position: relative;
+  margin: 30px auto 0;
+  width: 590px;
+  height: 50px;
+  background-color: #78d5db;
+  border-radius: 8px;
+  font-size: 0;
+  box-shadow: 0 2px 3px 0 rgb(0, 0, 0, 0.1);
+}
+nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  text-align: center;
+}
+nav .animation {
+  position: absolute;
+  height: 90%;
+  top: 0;
+  z-index: 0;
+  background-color: bisque;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+}
+
+nav a:nth-child(1) {
+  width: 100px;
+}
+nav .start-home,
+a:nth-child(1):hover ~ .animation {
+  width: 100px;
+  left: 0;
+}
+nav a:nth-child(2) {
+  width: 110px;
+}
+nav a:nth-child(2):hover ~ .animation {
+  width: 110px;
+  left: 100%;
+}
+nav a:nth-child(3) {
+  width: 100px;
+}
+nav a:nth-child(3):hover ~ .animation {
+  width: 100px;
+  left: 210px;
+}
+nav a:nth-child(4) {
+  width: 160px;
+}
+nav a:nth-child(4):hover ~ .animation {
+  width: 160px;
+  left: 310px;
+}
+nav a:nth-child(5) {
+  width: 100px;
+}
+nav a:nth-child(5):hover ~ .animation {
+  width: 120px;
+  left: 470px;
+}
+
+.fig {
+  border-radius: 5px;
+  width: 1445px;
+  height: 500px;
+}
+.fig ~ p {
+  color: #263a3c;
+}
+h3 {
+  background-color: #808080;
+  color: #fac710;
+  display: inline;
+}
+.viwe {
+  color: black;
+  background-color: #f24726;
+  border: dashed white;
+  text-align: center;
+}
+.gaming,
+.Popular {
+  border: solid;
+  border-color: rgb(59, 115, 187);
+  display: flex;
+  justify-content: space-between;
+}
+.laptop1 p {
+  display: inline;
+}
+.laptop2 p {
+  display: inline;
+}
+.box,
+.box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: thick double #32a1ce;
+}
+.laptop3 p {
+  display: inline;
+}
+.laptop4 p {
+  display: inline;
+}
+.table,
+td {
+  border: 4px solid;
+  border-radius: 3px;
+  border-color: #fac710;
+}
+/*footer*/
+.f-about {
+  display: flex;
+  flex-flow: row wrap;
+}
+.row {
+  color: #e67676;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.f-1 {
+  line-height: 2;
+  color: rgba(88, 2, 2, 0.866);
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+}
+.l2 {
+  margin-left: 65px;
+  width: 90% !important;
+  padding-top: 40px;
+}
+.left {
+  flex: 1;
+}
+div {
+  display: block;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: #b3c2c3;
+    margin: -1.2rem;
+    padding: -1.2rem;
+    box-sizing: border-box;
+  }
+  .h {
+    margin: 1rem;
+    width: 300px;
+    height: 300px;
+  }
+  .login-cart {
+    display: flex;
+    gap: 0.1rem;
+  }
+  .navbar__container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo__container {
+    width: 15px;
+    height: 20px;
+  }
+  .logo__container img {
+    width: 100%;
+    height: 100%;
+  }
+  #label1 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 30%;
+  }
+  nav a {
+    flex-direction: row;
+    font-size: 15px;
+    border-color: rgb(38, 117, 91);
+    width: 50px;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-content: flex-end;
+    order: -1;
+    width: 40px;
+  }
+
+  main {
+    padding: 0.01rem;
+    margin: 0;
+  }
+  .fig {
+    border-radius: 2px;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  .gaming,
+  .Popular {
+    width: 180px;
+    height: 80px;
+  }
+  .box,
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 700px;
+    margin-right: 0 auto;
+  }
+  .laptop1 {
+    width: 50px;
+    height: 30px;
+  }
+  .laptop2 {
+    width: 100px;
+    height: 80px;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 375px) {
+  body {
+    margin: -0.6rem;
+    padding: -0.2rem;
+  }
+  .h {
+    margin: 1rem;
+    width: 390px;
+    height: 400px;
+  }
+  .login-cart {
+    display: flex;
+    gap: 5rem;
+  }
+  .navbar__container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo__container {
+    width: 12px;
+    height: 20px;
+  }
+  .logo__container img {
+    width: 200%;
+    height: 200%;
+  }
+  #label1 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 30%;
+  }
+  nav a {
+    flex-direction: row;
+    font-size: 15px;
+    border-color: rgb(38, 117, 91);
+    width: 50px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-content: flex-end;
+    order: -1;
+    width: 40px;
+  }
+  main {
+    padding: 0.2rem;
+    margin: 0;
+  }
+  .gaming,
+  .Popular {
+    width: 180px;
+    height: 100px;
+  }
+  .box,
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 550px;
+    margin-right: 0 auto;
+  }
+  .fig {
+    margin: -0.5px;
+    padding: auto;
+    border-radius: 3px;
+    width: 340px;
+    height: 300px;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .h {
+    margin: 2rem;
+    width: 600px;
+    height: 300px;
+  }
+  .login-cart {
+    display: flex;
+    gap: 5rem;
+  }
+  .navbar__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo__container {
+    width: 100px;
+    height: 100px;
+  }
+  .logo__container img {
+    width: 100%;
+    height: 100%;
+  }
+  .login-cart {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  nav {
+    position: relative;
+    margin: 30px auto 0;
+    width: 590px;
+    height: 50px;
+    background-color: #78d5db;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgb(0, 0, 0, 0.1);
+  }
+  nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    text-align: center;
+  }
+  .box,
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 700px;
+    margin-right: 0 auto;
+  }
+  .fig {
+    margin: -0.5px;
+    padding: auto;
+    border-radius: 3px;
+    width: 500px;
+    height: 400px;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+}
